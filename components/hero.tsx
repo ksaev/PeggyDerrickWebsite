@@ -112,9 +112,10 @@ export function Hero() {
                   <div className="absolute inset-0 bg-blue-500/20 rounded-full blur-xl group-hover:blur-2xl transition-all duration-500"></div>
                 </div>
                 <div className="justify-center align-center">
-                  <h1 className="text-2xl md:text-4xl font-bold">
+                  <h1 className="text-5xl md:text-7xl font-bold">
                     <span className="bg-gradient-to-r from-blue-500 via-blue-500 to-blue-800 bg-clip-text text-transparent animate-gradient">
                       PEGGY DERRICK 
+                      <br />
                       <span className="text-2xl font-light text-black dark:text-blue-400 mt-2"> SARL,</span>
                       </span>
                   </h1>
