@@ -76,7 +76,7 @@ export function Hero() {
       <div
         className="absolute inset-0 
           bg-gradient-to-tl 
-          from-blue-100/30 via-blue-200/30 to-blue-300/30 
+          from-white via-white to-blue-100/15 
           dark:from-purple-900/10 dark:via-blue-900/10 dark:to-indigo-900/10 
           transition-all duration-1000"
         style={{
@@ -109,22 +109,15 @@ export function Hero() {
             <div className="space-y-6">
               <div className="flex items-center justify-center lg:justify-start space-x-4 group">
                 <div className="relative">
-                  <Image 
-                    src="/peggyderrick-1.png"
-                    alt="Logo Peggy Derrick"
-                    width={200}
-                    height={200}
-                  />
                   <div className="absolute inset-0 bg-blue-500/20 rounded-full blur-xl group-hover:blur-2xl transition-all duration-500"></div>
                 </div>
                 <div className="justify-center align-center">
-                  <h1 className="text-5xl md:text-7xl font-bold">
+                  <h1 className="text-2xl md:text-4xl font-bold">
                     <span className="bg-gradient-to-r from-blue-500 via-blue-500 to-blue-800 bg-clip-text text-transparent animate-gradient">
-                      PEGGY DERRICK
-                    </span>
-                    <br />
+                      PEGGY DERRICK 
+                      <span className="text-2xl font-light text-black dark:text-blue-400 mt-2"> SARL,</span>
+                      </span>
                   </h1>
-                  <p className="text-2xl font-light text-black dark:text-blue-400 mt-2">SARL</p>
                 </div>
               </div>
 
@@ -159,7 +152,7 @@ export function Hero() {
                   <div className="text-sm text-gray-600 dark:text-gray-400">{stat.label}</div>
                 </div>
               ))}
-            </div>
+            </div>  
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

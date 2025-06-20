@@ -30,12 +30,12 @@ export function LoadingScreen() {
         <Image
           src="/peggyderrick-1.png"
           alt="Logo Peggy Derrick"
-          width={300}
-          height={300}
+          width={200}
+          height={200}
           className="rounded-full mb-2"
         />
 
-        <h1 className="text-4xl font-bold text-blue-500 animate-pulse">PEGGY DERRICK SARL</h1>
+        <h1 className="text-2xl font-bold text-blue-500 animate-pulse">PEGGY DERRICK SARL</h1>
 
         {/* Barre de progression améliorée */}
         <div className="w-80 h-3 bg-white/20 rounded-full overflow-hidden shadow-inner mt-4">
