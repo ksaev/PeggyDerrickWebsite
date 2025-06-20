@@ -115,9 +115,8 @@ export function Hero() {
                   <h1 className="text-5xl md:text-7xl font-bold">
                     <span className="bg-gradient-to-r from-blue-500 via-blue-500 to-blue-800 bg-clip-text text-transparent animate-gradient">
                       PEGGY DERRICK 
-                      <br />
-                      <span className="text-2xl font-light text-black dark:text-blue-400 mt-2"> SARL,</span>
-                      </span>
+                      <p className="text-2xl font-light text-black dark:text-blue-400 mt-2"> SARL,</p>
+                    </span>
                   </h1>
                 </div>
               </div>

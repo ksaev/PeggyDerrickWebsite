@@ -80,7 +80,7 @@ export function Contact() {
     {
       icon: Phone,
       title: "Téléphone",
-      content: "09 27 07 36\n09 27 07 38",
+      content: "+225 07 09 27 07 36\n +225 07 09 27 07 38",
       color: "from-purple-500 to-pink-500",
     },
     {
