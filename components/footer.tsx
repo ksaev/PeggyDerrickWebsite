@@ -11,6 +11,7 @@ import {SiLinkedin} from "react-icons/si"
 import {SiWhatsapp} from "react-icons/si"
 import {SiXing} from "react-icons/si"
 import Image from "next/image"
+import Link from "next/link"
 
 export function Footer() {
   const [showScrollTop, setShowScrollTop] = useState(false)
@@ -42,14 +43,19 @@ export function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-6 group">
-              <div className="relative">
-              <Image 
-                  src="/peggyderrick_logo.png"
-                  alt="Logo Peggy Derrick"
-                  width={500}
-                  height={500}
-                />                <div className="absolute inset-0 bg-blue-400/20 rounded-full blur-xl group-hover:blur-2xl transition-all duration-300"></div>
-              </div>
+              <Link href="/">
+                <div className="relative">
+                
+                <Image 
+                    src="/peggyderrick_logo.png"
+                    alt="Logo Peggy Derrick"
+                    width={500}
+                    height={500}
+                  />                
+                  <div className="absolute inset-0 bg-blue-400/20 rounded-full blur-xl group-hover:blur-2xl transition-all duration-300"></div>
+                </div>
+              </Link>
+
 
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed text-lg">
@@ -106,7 +112,7 @@ export function Footer() {
               <div className="flex items-start group">
                 <MapPin className="h-5 w-5 text-blue-400 mr-3 mt-1 group-hover:scale-110 transition-transform duration-300" />
                 <div>
-                  <p>Cocody II Plateaux</p>
+                  <p>Yopougon Niangon Nord</p>
                   <p>14 BP 1464 Abidjan 14</p>
                   <p>Côte d'Ivoire</p>
                 </div>
@@ -133,12 +139,14 @@ export function Footer() {
               &copy; {currentYear} PEGGY DERRICK SARL. Tous droits réservés.
             </p>
             <div className="flex items-center space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors duration-300">
+            <Link
+              href="/politique" className="text-gray-400 hover:text-blue-400 transition-colors duration-300">
                 Politique de confidentialité
-              </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors duration-300">
+            </Link>
+            <Link
+               href="/conditions" className="text-gray-400 hover:text-blue-400 transition-colors duration-300">
                 Conditions d'utilisation
-              </a>
+            </Link>
             </div>
           </div>
         </div>

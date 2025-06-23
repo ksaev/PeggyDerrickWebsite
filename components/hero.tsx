@@ -66,7 +66,7 @@ export function Hero() {
       <div
         className="absolute inset-0 
           bg-gradient-to-br 
-          from-blue-100/40 via-blue-200/40 to-blue-300/40 
+          from-blue-50/40 via- blue-100/40 to-blue-150/40 
           dark:from-blue-900/20 dark:via-purple-900/20 dark:to-blue-800/20 
           transition-all duration-1000"
         style={{
@@ -139,8 +139,8 @@ export function Hero() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 py-8">
               {[
-                { icon: Users, value: "500+", label: "Clients satisfaits" },
-                { icon: Building2, value: "200+", label: "Projets réalisés" },
+                { icon: Users, value: "150+", label: "Clients satisfaits" },
+                { icon: Building2, value: "500+", label: "Projets réalisés" },
                 { icon: Award, value: "15+", label: "Années d'expérience" },
               ].map((stat, index) => (
                 <div key={index} className="text-center group">

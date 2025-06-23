@@ -15,7 +15,7 @@ import { FloatingElements } from "@/components/floating-elements"
 export default function Home() {
   return (
     <div className="min-h-screen bg-background relative overflow-x-hidden">
-      <LoadingScreen />
+      {/*<LoadingScreen />*/}
       <ParticleBackground />
       <FloatingElements />
       <ScrollProgress />
@@ -29,7 +29,6 @@ export default function Home() {
         <Testimonials />
         <Contact />
       </main>
-      <Footer />
     </div>
   )
 }
